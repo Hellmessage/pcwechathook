@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="600,500">
+	<HBox bkcolor="#FF666666">
+		<VBox width="15"/>
+		<VBox><Label text="支持微信版本: 3.1.0.72" font="2" textcolor="#FFFFFFFF" rhaa="5" valign="center" align="left" height="30"/></VBox>
+		<VBox><Label text="版本: v0.0.1-b 作者:Hellmessage QQ:3195774121" font="2" textcolor="#FFFFFFFF" rhaa="5" valign="center" align="right" height="30"/></VBox>
+		<VBox width="15"/>
+	</HBox>
+</Window>

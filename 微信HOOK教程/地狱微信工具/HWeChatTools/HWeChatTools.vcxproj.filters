@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{36b82795-fd0f-458d-947b-66263b4cf8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\tinyxml2">
+      <UniqueIdentifier>{f42bca73-c342-4ea5-a958-beef6561f7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\cjson">
+      <UniqueIdentifier>{615682ba-ebd1-42c3-a5ba-c031dc9576ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\md5">
+      <UniqueIdentifier>{683f8041-e2bd-4271-b027-86b49a05d455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\htcp">
+      <UniqueIdentifier>{52a06a8e-7f68-4945-93cb-a995ee7ec1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\hlock">
+      <UniqueIdentifier>{89d073c2-4dff-43bc-bc16-4c99a515fc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="theme">
+      <UniqueIdentifier>{0910d91f-ea2a-4016-a130-52ffb8edab12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="theme\image">
+      <UniqueIdentifier>{f82b8c84-0562-4678-b2a3-f0f132c542a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="theme\control">
+      <UniqueIdentifier>{c3aedd40-d5ca-4a28-a9e4-a0afdf57a59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\sqlite3">
+      <UniqueIdentifier>{e40a8f7e-a9ad-4887-a2f3-0e046b420e59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HWeChat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="library\tinyxml2\tinyxml2.h">
+      <Filter>library\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="library\md5\md5.h">
+      <Filter>library\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cjson\cJSON.h">
+      <Filter>library\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="library\cjson\CJsonObject.h">
+      <Filter>library\cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="library\htcp\HTcp.h">
+      <Filter>library\htcp</Filter>
+    </ClInclude>
+    <ClInclude Include="library\hlock\HLock.h">
+      <Filter>library\hlock</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HDuilib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="library\sqlite3\sqlite3.h">
+      <Filter>library\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="library\sqlite3\sqlite3ext.h">
+      <Filter>library\sqlite3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="library\tinyxml2\tinyxml2.cpp">
+      <Filter>library\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="library\md5\md5.cpp">
+      <Filter>library\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="library\cjson\cJSON.c">
+      <Filter>library\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="library\cjson\CJsonObject.cpp">
+      <Filter>library\cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="HTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="library\htcp\HTcp.cpp">
+      <Filter>library\htcp</Filter>
+    </ClCompile>
+    <ClCompile Include="library\hlock\HLock.cpp">
+      <Filter>library\hlock</Filter>
+    </ClCompile>
+    <ClCompile Include="HDuilib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="library\sqlite3\sqlite3.c">
+      <Filter>library\sqlite3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GetUserInfoByWxid.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\theme\image\icon_wechat_white.png">
+      <Filter>theme\image</Filter>
+    </Image>
+    <Image Include="res\theme\image\icon_min_hot.png">
+      <Filter>theme\image</Filter>
+    </Image>
+    <Image Include="res\theme\image\icon_min.png">
+      <Filter>theme\image</Filter>
+    </Image>
+    <Image Include="res\theme\image\icon_close_hot.png">
+      <Filter>theme\image</Filter>
+    </Image>
+    <Image Include="res\theme\image\icon_close.png">
+      <Filter>theme\image</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>theme</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\theme\main.xml">
+      <Filter>theme</Filter>
+    </Xml>
+    <Xml Include="res\theme\control\HEFooter.xml">
+      <Filter>theme\control</Filter>
+    </Xml>
+    <Xml Include="res\theme\control\HEHeader.xml">
+      <Filter>theme\control</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

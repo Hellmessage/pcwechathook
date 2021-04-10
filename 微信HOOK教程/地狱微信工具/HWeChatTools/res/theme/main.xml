@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="600,500" caption="0,0,0,50" alpha="255">
+	<Font id="1" name="微软雅黑" bold="true" size="13" />
+	<Font id="2" name="微软雅黑" bold="true" size="11" />
+	<VBox bkcolor="#FFFFFFFF">
+		<HEHeader height="50"/>
+		<!--客户端区域-->
+		<VBox>
+			<HBox padding="0,5,0,0" height="30">
+				<Label width="55" height="30" text="微信ID:" padding="10,0,0,0" />
+				<Edit name="WxidSet" bordercolor="#FF666666" height="30" bordersize="1" padding="10,5,10,5" />
+				<Button name="GetUserinfoByWxid" text="查询" width="60" height="20" padding="0,5,10,5" bkcolor="#FF3399CC" textcolor="#FFFFFFFF"  />
+			</HBox>
+
+			<HBox padding="0,5,0,0" height="30">
+				<Label width="55" height="30" text="微信名:" padding="10,0,0,0" />
+				<Edit name="NickNameSet" bordercolor="#FF666666" height="30" bordersize="1" padding="10,5,10,5" />
+			</HBox>
+			
+			
+			
+		</VBox>
+		<HEFooter height="30"/>
+	</VBox>
+</Window>

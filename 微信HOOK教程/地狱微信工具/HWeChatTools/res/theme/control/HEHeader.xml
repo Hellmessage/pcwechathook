@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="600,500" name="HeaderBox">
+	<Font id="1" name="微软雅黑" bold="true" size="13" />
+	<HBox bkcolor="#FF666666">
+		<Control bkimage="res='104' restype='png'" width="26" height="26" padding="12,12,12,12"/>
+		<Label name="HeaderTitle" text="地狱微信工具 - 教程用例 交流群:725603267" font="1" textcolor="#FFFFFFFF" rhaa="5" valign="center" height="50"/>
+		<VBox width="1" height="22" bkcolor="#FFFFFFFF" padding="0,14,15,0"/>
+		<VBox width="95">
+			<Button name="MinButton" 
+					bkimage="res='105' restype='png'" 
+					hotimage="res='106' restype='png'" 
+					width="20" 
+					height="20" 
+					float="true" 
+					pos="30,15,50,35" 
+					tooltip="最小化" />
+			<Button name="CloseButton" 
+					bkimage="res='102' restype='png'" 
+					hotimage="res='103' restype='png'" 
+					width="20" 
+					height="20" 
+					float="true" 
+					pos="60,15,80,35" 
+					tooltip="隐藏"/>
+		</VBox>
+	</HBox>
+</Window>
